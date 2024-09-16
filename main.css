@@ -1,0 +1,354 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+:root{
+     --maincolor:#c1ab84;
+     --mainfont:font-family: "Rubik", sans-serif;
+     --subfont: font-family: "Playwrite CU", cursive;
+}
+a{
+     text-decoration: none;
+     color: black;
+}
+nav{
+     position: sticky;
+     top: 0;
+     width: 100%;
+     height: 60px;
+     display: flex;
+     justify-content: center;
+     background-color: rgba(148, 140, 140, 0.937);
+     z-index:9999 ;
+      color: black
+     background-color: white;
+}
+nav h1{
+font-size: 20px;
+
+}
+nav img{
+     width: 100px;
+     height: 50px;
+}
+.container{
+     width: 80%;
+     
+     display: flex;
+     justify-content: space-between;
+}
+nav .container{
+     display: flex;
+
+}
+nav .container .start{
+      width: 40%;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+}
+nav .container .end{
+  
+     display: flex;
+     flex-wrap: wrap;
+     align-content: center;
+   }
+nav .container .end{
+     width: 30%;
+}
+.NavList{
+     width: 100%;
+}
+.NavList ul{
+      display: flex;
+      justify-content: space-between;
+
+}
+.NavList ul li {
+     list-style: none;
+     color: black;
+}
+
+
+header{
+
+     background-image: url(image/shutterstock_277750193.jpg );
+     height: 100vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+
+}
+.Head{
+     display: flex;
+     flex-wrap: wrap;
+     color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 100vh;
+    gap: 20px;
+}
+.Head img{
+     width: 400px;
+     height: 200px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.buttons button{
+     padding: 10px;
+     border-radius: 10px;
+}
+.buttons button:first-of-type:hover{
+     background-color: #c1ab84;
+     animation-name: example;
+     animation-duration: 4s;
+}
+.buttons button:last-of-type:hover{
+     background-color: #c1ab84;
+     animation-name: example;
+     animation-duration: 4s;
+}
+@keyframes example{
+     from{background-color: #c1ab84;}
+     to{
+          background-color: white;
+     }
+}
+.Head p{
+     font-family: "Playwrite CU", cursive;
+      font-size: 20px;
+}
+.Head h1{
+     font-size: 60px;
+      font-weight: 200;
+      font-family: "Rubik", sans-serif;
+}
+button:hover{
+     background-color: #c1ab84;
+}
+.buttons button:first-of-type{
+   
+  background-color:#c1ab84 ;
+}
+
+/*footer code*/
+i{
+     color:#969696;
+}
+footer{
+     background-color: #403d38;
+}
+footer  .MainFooter{
+    display: flex;
+     justify-content: center;
+     background-color: #484237;
+     padding-top: 40px;
+     padding-bottom: 40px;
+
+}
+footer{
+     background-color:  #403d38;
+     display: flex;
+     flex-direction: column;
+    gap: 20px;
+   color: white;
+
+}
+footer h3{
+     color: white;
+}
+footer ul li{
+     border-bottom: 2px solid rgb(50, 49 ,49);
+}
+footer li a{
+     color: white;
+}
+.Sec{
+     display:flex ;
+     flex-direction: column;
+     gap: 20px;
+}
+.Sec ul{
+     display:flex ;
+     height: 100%;
+     flex-direction: column;
+
+     gap: 20px;
+    
+}
+
+.FooterSec4,.FooterSec1{
+     width: 25%;
+    
+}
+ul li:last-of-type{
+     border-bottom: none;
+}
+footer .SubFooter{
+     display: flex;
+     justify-content: center;
+     background-color: #403d38;
+
+    
+}
+footer .SubFooter .container{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     gap: 20px;
+
+}
+
+.FooterSec4 ul li{
+     display: flex;
+     gap: 20px;
+
+}
+footer .SubFooter .container img{
+width: 400px;
+height: 200px;
+
+}
+.icons{
+     display: flex;
+     justify-content: center;
+     gap:20px;
+
+}
+.icons .icon{
+
+      width: 60px;
+       height:60px;
+       border-radius: 50%;
+     background: color #484540;
+     text-align: center;
+     display: flex;
+     flex-wrap: wrap;
+     align-content: center;
+     justify-content: center;
+}
+.icons .icon i{
+     font-size:50px;
+     color:#8c8a86;
+}
+
+.Info{
+     display: flex;
+     justify-content: center;
+}
+.Info .container{
+     display: flex;
+   justify-content: center;
+}
+.ImageInfo{
+     width: 50%;
+     display: flex;
+     justify-content: center;
+}
+.Info p{
+      color:#353330 ;
+}
+.DataInfo{
+width: 40%;
+display: flex;
+flex-direction: column;
+
+justify-content: center;
+gap: 30px;
+}
+.DataInfo ul{
+     display: flex;
+     flex-direction: column;
+}
+.DataInfo  li{
+     display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.DataInfo .h2{
+     
+     font-size: 40px;
+    font-weight: 300;
+     font-family: var(--mainfont);
+}
+.DataInfo .parag{
+ color: var(--maincolor);
+font-size: 15px;
+font-family: "Playwrite CU", cursive;
+}
+.DataInfo .secpara{
+
+     font-family: var(--mainfont);
+     font-weight: 300;
+}
+.ImageInfoRIV img {
+width:500px;
+height:400px;
+}
+.Review{
+     display: flex;
+     justify-content: center;
+     
+}
+
+.Review .container{
+     display: flex;
+   justify-content: center;
+}
+.ImageInfoRIV{
+     width: 50%;
+     margin-bottom: 5px;
+     display: flex;
+     justify-content: center;
+   
+}
+.Review p{
+      color:#353330 ;
+}
+.DataInfoRIV{
+width: 40%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 30px;
+}
+.DataInfoRIV ul{
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+}
+.DataInfoRIV  li{
+     display: flex;
+align-items: center;
+gap: 10px;
+}
+.DataInfoRIV .h2{
+     
+     font-size: 40px;
+    font-weight: 300;
+     font-family: var(--mainfont);
+}
+.DataInfoRIV .parag{
+ color: var(--maincolor);
+font-size: 15px;
+font-family: "Playwrite CU", cursive;
+}
+.DataInfoRIV .secpara{
+
+     font-family: var(--mainfont);
+     font-weight: 100;
+}
+.Image{
+     background-image: url(img/restuu.jpg);
+     height: 50vh;
+     background-position: top;
+     background-repeat: no-repeat;
+     background-size:cover ;
+}
